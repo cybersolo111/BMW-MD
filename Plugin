@@ -1,0 +1,18 @@
+const { bot, getJson,genHydratedButtons } = require('../lib/')
+
+bot(
+	{
+		pattern: 'true ?(.*)',
+		fromMe: true,
+		desc: 'truecaller search',
+		type: 'misc',
+	},
+	async (message, match) => { 
+try{
+function _0x428c(){const _0x90c6ea=['𝐋𝐲𝐅𝐞00011\x20𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩\x20𝐁𝐨𝐭','reply_message','\x0a├\x20*ᴄᴀʀʀɪᴇʀ*\x20:','9114192EGekpA','\x0a├\x20*ɴᴀᴛɪᴏɴᴀʟ\x20ғᴏʀᴍᴀᴛ*\x20:','timeZone','\x0a├\x20*ᴛʏᴘᴇ*\x20:','nationalFormat','sendMessage','dialingCode','11809736sQhgMs','\x0a└──────────────────────','Give\x20me\x20a\x20number\x20','\x0a├\x20*ᴀᴄᴄᴇss*\x20:','\x0a├\x20*ᴘʀᴇғɪx*:\x20','\x0a├\x20*ᴄɪᴛʏ*\x20:','94191CyAyTi','14BGmKJk','https://neeraj-x0-api.up.railway.app/api/truecaller?q=','6431895vuOjOH','\x0a┌───〔\x20𝗧𝗿𝘂𝗲𝗰𝗮𝗹𝗹𝗲𝗿\x20𝗦𝗲𝗮𝗿𝗰𝗵\x20〕─\x0a├\x20*ɴᴀᴍᴇ*\x20:','347421OIiifc','https://github.com/mask-sir/LYFE-PLUGINLISTS','jid','40452yxsUtH','640XmFGJZ','template','city','countryCode','\x0a├\x20*ɴᴜᴍʙᴇʀ*\x20:','22733600eFgjst','split','carrier','7WpZnWp','&apikey=Neeraj-x0','𝗣𝗟𝗨𝗚𝗜𝗡𝗦','\x0a├\x20*ᴛɪᴍᴇᴢᴏɴᴇ*\x20:'];_0x428c=function(){return _0x90c6ea;};return _0x428c();}const _0x1426d1=_0x3ae2;function _0x3ae2(_0x308c2d,_0x271c77){const _0x428c48=_0x428c();return _0x3ae2=function(_0x3ae25b,_0x46d5cf){_0x3ae25b=_0x3ae25b-0xa7;let _0x538966=_0x428c48[_0x3ae25b];return _0x538966;},_0x3ae2(_0x308c2d,_0x271c77);}(function(_0x335a47,_0x1cd6fc){const _0x39e523=_0x3ae2,_0x24004d=_0x335a47();while(!![]){try{const _0xb89ede=-parseInt(_0x39e523(0xb5))/0x1*(-parseInt(_0x39e523(0xb6))/0x2)+-parseInt(_0x39e523(0xba))/0x3+parseInt(_0x39e523(0xbd))/0x4*(-parseInt(_0x39e523(0xbe))/0x5)+-parseInt(_0x39e523(0xa8))/0x6+parseInt(_0x39e523(0xc6))/0x7*(parseInt(_0x39e523(0xaf))/0x8)+-parseInt(_0x39e523(0xb8))/0x9+parseInt(_0x39e523(0xc3))/0xa;if(_0xb89ede===_0x1cd6fc)break;else _0x24004d['push'](_0x24004d['shift']());}catch(_0x317b48){_0x24004d['push'](_0x24004d['shift']());}}}(_0x428c,0xbac1c),match=message['mention'][0x0]||message[_0x1426d1(0xcb)][_0x1426d1(0xbc)]||match);if(!match)return await message[_0x1426d1(0xad)](_0x1426d1(0xb1));const {data}=await getJson(_0x1426d1(0xb7)+match[_0x1426d1(0xc4)]('@')[0x0]+_0x1426d1(0xc7)),{name,phones,access,addresses}=data[0x0];return await message[_0x1426d1(0xad)](await genHydratedButtons([{'urlButton':{'text':_0x1426d1(0xc8),'url':_0x1426d1(0xbb)}}],_0x1426d1(0xb9)+name+_0x1426d1(0xb2)+access+_0x1426d1(0xc2)+phones[0x0]['e164Format']+_0x1426d1(0xa9)+phones[0x0][_0x1426d1(0xac)]+_0x1426d1(0xab)+phones[0x0]['numberType']+_0x1426d1(0xb3)+phones[0x0][_0x1426d1(0xae)]+'\x0a├\x20*ᴄᴏᴜɴᴛʀʏ\x20ᴄᴏᴅᴇ*\x20:'+phones[0x0][_0x1426d1(0xc1)]+_0x1426d1(0xa7)+phones[0x0][_0x1426d1(0xc5)]+_0x1426d1(0xb4)+addresses[0x0][_0x1426d1(0xc0)]+_0x1426d1(0xc9)+addresses[0x0][_0x1426d1(0xaa)]+_0x1426d1(0xb0),_0x1426d1(0xca)),{},_0x1426d1(0xbf));
+}catch(e){await message.sendMessage("*Error*\n_try again later_",{quoted: message.data})};
+});
+//CREATED BY MASK SER
+//MADED BY LYFE
+//MODIFIED BY NEERAJ-X0
+//FOR MORE PLUGINS VISIT https://github.com/mask-sir/LYFE-PLUGINLISTS
